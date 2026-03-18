@@ -11,91 +11,62 @@
 
 <title>Arkay Technology Ltd. | Where Data Illuminates</title>
 
-<title>Arkay Technology Ltd. | Where Data Illuminates</title>
-
 <style>
 
 /* ================= GLOBAL ================= */
 
 body{
-
 margin:0;
 font-family:Segoe UI, Arial, sans-serif;
 background: radial-gradient(circle at top, #0b1d33, #02050b);
 color:white;
-
 }
 
 html{
 scroll-behavior:smooth;
 }
 
-
-/* ================= NAVBAR FIXED ================= */
+/* ================= NAVBAR ================= */
 
 .navbar{
-
 position:fixed;
 top:0;
 left:0;
 width:100%;
-
 padding:15px 5%;
-
 display:flex;
 justify-content:space-between;
 align-items:center;
-
 box-sizing:border-box;
-
 z-index:1000;
-
 background: rgba(2,5,11,0.6);
 backdrop-filter: blur(6px);
-
 }
-
 
 .brand{
-
 font-weight:bold;
 font-size:20px;
-
 }
-
-
-/* NAV LINKS CONTAINER */
 
 .nav-links{
-
 display:flex;
 gap:25px;
-
 flex-wrap:wrap;
-
 }
 
-
 .nav-links a{
-
 color:#aaa;
 text-decoration:none;
 font-size:16px;
-
 }
-
 
 .nav-links a:hover{
-
 color:white;
-
 }
-
 
 /* ================= HERO ================= */
 
 .hero{
-
 height:100vh;
 display:flex;
 flex-direction:column;
@@ -103,202 +74,121 @@ justify-content:center;
 align-items:center;
 text-align:center;
 position:relative;
-
 padding:0 20px;
-
 }
 
-
 .halo{
-
 position:absolute;
 width:800px;
 height:800px;
 border-radius:50%;
-
 background:radial-gradient(circle,
 rgba(255,255,255,0.08),
 rgba(255,255,255,0.02),
 transparent);
-
 }
 
-
 .logo{
-
 font-size:80px;
 font-weight:bold;
 z-index:2;
-
 }
 
 .company{
-
 font-size:48px;
 z-index:2;
-
 }
 
 .tagline{
-
 font-size:24px;
 color:#5fd1c8;
 z-index:2;
-
 }
-
 
 .buttons{
-
 margin-top:40px;
 z-index:2;
-
 }
 
-
 .buttons a{
-
 border:1px solid #3a4a66;
 padding:15px 30px;
 margin:10px;
 border-radius:8px;
 color:white;
 text-decoration:none;
-
 }
 
 .buttons a:hover{
-
 background:#1a2a44;
-
 }
-
 
 /* ================= SECTION ================= */
 
 .section{
-
 padding:120px 20px;
 text-align:center;
-
-/* THIS FIXES NAVBAR OVERLAP ISSUE */
-
 scroll-margin-top:80px;
-
 }
-
 
 .section h2{
-
 font-size:36px;
-
 }
 
-
 .section p{
-
 max-width:900px;
 margin:auto;
 margin-top:20px;
 font-size:18px;
 color:#aaa;
 line-height:1.6;
-
 }
-
 
 /* ================= PRODUCTS ================= */
 
 .products{
-
 display:flex;
 justify-content:center;
 gap:30px;
 margin-top:50px;
 flex-wrap:wrap;
-
 }
 
-
 .card{
-
 width:250px;
 padding:30px;
 border:1px solid #3a4a66;
 border-radius:10px;
 transition:0.3s;
-
 }
-
 
 .card:hover{
-
 background:#1a2a44;
 transform:translateY(-5px);
-
 }
-
 
 .card a{
-
 color:white;
 text-decoration:none;
-
 }
-
-
-/* ================= CONTACT ================= */
-
-.contact{
-
-margin-top:30px;
-
-}
-
-
-.contact a{
-
-color:#5fd1c8;
-text-decoration:none;
-
-}
-
 
 /* ================= FOOTER ================= */
 
 .footer{
-
 padding:60px 40px;
 background:black;
 text-align:center;
 color:#666;
-
 margin-top:80px;
-
 }
 
-
-/* ================= MOBILE FIX ================= */
+/* ================= MOBILE ================= */
 
 @media(max-width:700px){
-
-.logo{
-font-size:50px;
-}
-
-.company{
-font-size:28px;
-}
-
-.tagline{
-font-size:18px;
-}
-
-.nav-links{
-gap:15px;
-font-size:14px;
-}
-
+.logo{font-size:50px;}
+.company{font-size:28px;}
+.tagline{font-size:18px;}
+.nav-links{gap:15px;font-size:14px;}
 }
 
 </style>
@@ -307,173 +197,107 @@ font-size:14px;
 
 <body>
 
-
-
 <!-- NAVBAR -->
 
 <div class="navbar">
-
 <div class="brand">ATL</div>
 
 <div class="nav-links">
-
 <a href="#about">About</a>
-
 <a href="#technology">Technology</a>
-
 <a href="#products">Products</a>
-
 <a href="#contact">Contact</a>
-
 </div>
-
 </div>
-
-
 
 <!-- HERO -->
 
 <div class="hero">
-
 <div class="halo"></div>
 
 <div class="logo">ATL</div>
-
 <div class="company">Arkay Technology Ltd.</div>
-
 <div class="tagline">Where Data Illuminates</div>
 
 <div class="buttons">
-
 <a href="#products">Explore Products</a>
-
 <a href="zipi.html">Launch ZIPI</a>
-
 </div>
-
 </div>
-
-
 
 <!-- ABOUT -->
 
 <div id="about" class="section">
-
 <h2>About Arkay Technology</h2>
 
 <p>
-
-Arkay Technology Ltd. is an artificial intelligence company focused on building next-generation intelligent systems that understand, reason, and assist humans across digital and real-world environments.
-
+Arkay Technology Ltd. builds AI systems that transform data into intelligence across business, industry, and society.
 </p>
 
 <p>
-
-We specialize in conversational AI, voice intelligence, computer vision, and predictive intelligence platforms designed for individuals, enterprises, and government applications.
-
-</p>
-
-<p>
-
-Our long-term mission is to create evolving autonomous intelligence systems that integrate deeply into everyday life and redefine human-AI collaboration.
-
+We specialize in conversational AI, document intelligence, voice systems, and predictive analytics.
 </p>
 
 </div>
-
-
 
 <!-- TECHNOLOGY -->
 
 <div id="technology" class="section">
-
 <h2>Technology</h2>
 
 <p>
-
-Our platforms are built using modern artificial intelligence technologies including Machine Learning, Deep Learning, Large Language Models, Computer Vision, and scalable backend infrastructure using Python and FastAPI.
-
-</p>
-
-<p>
-
-We focus on building intelligent systems that are scalable, efficient, and capable of real-world deployment.
-
+We use Machine Learning, Deep Learning, LLMs, Computer Vision, and scalable backend systems to build real-world AI solutions.
 </p>
 
 </div>
-
-
 
 <!-- PRODUCTS -->
 
 <div id="products" class="section">
 
 <h2>Products</h2>
-
-<p>Explore Arkay Technology AI ecosystem</p>
-
+<p>Explore Arkay AI ecosystem</p>
 
 <div class="products">
 
-
 <div class="card">
-
 <a href="zipi.html">
-
 <h3>ZIPI AI</h3>
-
 <p>Autonomous AI Assistant</p>
-
 </a>
-
 </div>
 
+<div class="card">
+<a href="docubrain.html">
+<h3>DocuBrain</h3>
+<p>AI Document Intelligence Engine</p>
+</a>
+</div>
 
 <div class="card">
-
 <a href="voca.html">
-
 <h3>VOCA AI</h3>
-
 <p>Voice Intelligence Platform</p>
-
 </a>
-
 </div>
 
-
 <div class="card">
-
 <a href="akriti.html">
-
 <h3>AKRITI AI</h3>
-
 <p>Computer Vision Platform</p>
-
 </a>
-
 </div>
-
 
 <div class="card">
-
 <a href="catalyst.html">
-
 <h3>Catalyst AI</h3>
-
 <p>Market Intelligence Platform</p>
-
 </a>
-
-</div>
-
-
 </div>
 
 </div>
 
-
+</div>
 
 <!-- CONTACT -->
 
@@ -484,39 +308,21 @@ We focus on building intelligent systems that are scalable, efficient, and capab
 <p>Email: arkaytechnologieslimited@gmail.com</p>
 
 <p>
-
 GitHub:
-
 <a href="https://github.com/arkaytech" target="_blank">
-
 https://arkaytech.github.io/
-
 </a>
-
 </p>
 
 </div>
 
-
-
 <!-- FOOTER -->
 
 <div class="footer">
-
 Arkay Technology Ltd. © 2026
-
 <br><br>
-
 Where Data Illuminates
-
 </div>
 
-
-
 </body>
-
 </html>
-
-
-
-
